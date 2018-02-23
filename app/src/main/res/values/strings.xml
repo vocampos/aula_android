@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aula Calculadora</string>
+    <string name="menu">Menu</string>
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="telefone">Telefone</string>
+</resources>
