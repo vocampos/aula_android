@@ -17,7 +17,7 @@ public class ContatoActivity extends AppCompatActivity {
         //exibindo botao de boltar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-    
+
     //habilitando menu na barra de titulos
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
