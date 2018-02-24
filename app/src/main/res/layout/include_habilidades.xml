@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/selecione_habilidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <CheckBox
+        android:text="JAVA"
+        android:id="@+id/hb_java"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <CheckBox
+        android:text="Android"
+        android:id="@+id/hb_Android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <CheckBox
+        android:text="HTML"
+        android:id="@+id/hb_html"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+
+    </LinearLayout>

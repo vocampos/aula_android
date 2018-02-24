@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
@@ -30,20 +34,15 @@
         android:inputType="number"
         android:textSize="18sp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:layout_weight="1"
-        android:gravity="center|bottom"
-        android:orientation="vertical">
+    <include layout="@layout/include_habilidades"/>
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Salvar"
-            android:textSize="18sp" />
+    <include layout="@layout/include_sexo"/>
 
-    </LinearLayout>
+    <Button style="@style/estiloBotao"
+        android:onClick="onClickValidar"
+            android:text="Salvar" />
 
 
 </LinearLayout>
+
+    </ScrollView>

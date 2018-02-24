@@ -33,6 +33,9 @@ public class MenuActivity extends AppCompatActivity {
             case R.id.ico_contato:
                 activity = ContatoActivity.class;
                 break;
+            case R.id.ico_dinamico:
+                activity = DinamicoActivity.class;
+                break;
         }
 
         if (activity != null) {

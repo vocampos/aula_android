@@ -1,7 +1,11 @@
 <resources>
+    <string name="nome_obrigatorio">Nome Obrigatório</string>
     <string name="app_name">Aula Calculadora</string>
     <string name="menu">Menu</string>
     <string name="nome">Nome</string>
     <string name="email">E-mail</string>
     <string name="telefone">Telefone</string>
+    <string name="contato">Contato</string>
+    <string name="sexo">Sexo</string>
+    <string name="selecione_habilidades">Selecione suas Habilidades:</string>
 </resources>

@@ -52,6 +52,8 @@
             android:src="@drawable/ico_ferramentas" />
 
         <ImageView
+            android:id="@+id/ico_dinamico"
+            android:onClick="executarClique"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_margin="10dp"
