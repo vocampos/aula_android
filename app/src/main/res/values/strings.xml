@@ -1,7 +1,7 @@
 <resources>
-    <string name="nome_obrigatorio">Nome Obrigatório</string>
+    <string name="campo_obrigatorio">Campo Obrigatório</string>
     <string name="app_name">Aula Calculadora</string>
-    <string name="menu">Menu</string>
+    <string name="menu">Limpar Formulario</string>
     <string name="nome">Nome</string>
     <string name="email">E-mail</string>
     <string name="telefone">Telefone</string>

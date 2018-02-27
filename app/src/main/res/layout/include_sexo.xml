@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="@string/selecione_habilidades"
+        android:text="@string/sexo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18dp"
@@ -33,3 +33,4 @@
 
 
 </LinearLayout>
+
